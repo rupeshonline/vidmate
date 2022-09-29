@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #999;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+main > label.jpg-upload {
+  font-size: 1.4rem;
+  color: #111;
+  font-weight: 500;
+  background-color: #00aaff;
+  border-radius: 10px;
+  border: 3px solid #07618f;
+  padding: 6px 12px;
+  cursor: pointer;
+}
